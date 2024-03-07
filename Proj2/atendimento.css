@@ -32,16 +32,16 @@ body {
     text-shadow: 2px 4px 5px #413e3e;
     font-size: 30px;
     height: 150px;
-    background-color: lavender;
+    background-color: cadetblue;
     width: 103.7%;
 }
 
-.info-img {
+.clock-img {
     display: block;
-    width: 150px;
+    width: 230px;
     position: relative;
     margin-left: 75%;
-    margin-top: -150px;
+    margin-top: -130px;
     mix-blend-mode: multiply;
 }
 
@@ -51,10 +51,32 @@ body {
     width: 103.7%;
 }
 
-.main-text {
-    line-height: 2.0;
-    font-size: 25px;
-    text-align: left;
+.table {
+    position: relative;
+    margin-top: 100px;
+    border: solid 2px black;
+    -webkit-box-shadow: 11px 10px 5px -4px rgba(0,0,0,0.22);
+    -moz-box-shadow: 11px 10px 5px -4px rgba(0,0,0,0.22);
+    box-shadow: 11px 10px 5px -4px rgba(0,0,0,0.22);
+}
+
+.table thead{
+    background-color: black;
+    color: white;
+}
+
+.titulo {
+    background-color: bisque;
+    color: black;
+}
+
+.table tbody tr:nth-child(even){
+    background-color: aqua;
+
+}
+
+.table tbody tr:hover{
+    background-color: blueviolet;
 }
 
 .addrs-text {
