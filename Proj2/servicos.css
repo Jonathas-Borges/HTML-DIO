@@ -27,57 +27,67 @@ body {
 
 .header {
     text-align: center;
-    text-transform: uppercase;
     text-decoration: solid;
     text-decoration: underline;
     text-shadow: 2px 4px 5px #413e3e;
     font-size: 30px;
     height: 150px;
-    background-color: whitesmoke;
-    background-image: url(clouds.jpg);
-    background-blend-mode:hard-light;
+    background-color: bisque;
     width: 103.7%;
+}
+
+.info-img {
+    display: block;
+    width: 150px;
+    position: relative;
+    margin-left: 75%;
+    margin-top: -160px;
 }
 
 .content {
     background-color: rgb(221, 241, 247);
-    height: auto;
+    height: 800px;
     width: 103.7%;
 }
 
 .main-text {
     line-height: 2.0;
-    font-size: 25px;
+    font-size: 24px;
     text-align: left;
 }
+
+.table {
+    position: relative;
+    margin-top: -250px;
+    border: solid 2px black;
+    -webkit-box-shadow: 11px 10px 5px -4px rgba(0,0,0,0.22);
+    -moz-box-shadow: 11px 10px 5px -4px rgba(0,0,0,0.22);
+    box-shadow: 11px 10px 5px -4px rgba(0,0,0,0.22);
+}
+
+.table thead{
+    background-color: black;
+    color: white;
+}
+
+.titulo {
+    background-color: burlywood;
+    color: black;
+}
+
+.table tbody tr:nth-child(even){
+    background-color: aqua;
+
+}
+
+.table tbody tr:hover{
+    background-color: blueviolet;
+}
+
 
 .addrs-text {
     line-height: 2.0;
     font-size: 20px;
-}
-
-.image1, .image2, .image3{
-    display: block;
-    width: 700px;
-    position: relative;
-}
-
-.image1 {
-    margin-left: auto;
-    margin-right: 0%;
-    top: -340px; /* Valor negativo para mover para cima */
-}
-
-.image2 {
-    margin-left: auto;
-    margin-right: 5%;
-    top: -300px; /* Valor negativo para mover para cima */
-}
-
-.image3 {
-    margin-left: auto;
-    margin-right: 10%;
-    top: -260px; /* Valor negativo para mover para cima */
 }
 
 .footer {
