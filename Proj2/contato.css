@@ -1,0 +1,89 @@
+body {
+    background-color: #f1f1f1;
+}
+
+.wrapper, .main{
+    display: flex;
+}
+
+.wrapper {
+    margin: 0 auto;
+    background-color: white;
+    max-width: 100%;
+    height: auto;
+}
+
+.main {
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 10%;
+    background-color: rgb(172, 222, 238);
+    padding: 10px 20px 0px;
+    font-size: 20px;
+}
+
+.header {
+    text-align: center;
+    text-decoration: solid;
+    text-decoration: underline;
+    text-shadow: 2px 4px 5px #413e3e;
+    font-size: 30px;
+    height: 150px;
+    background-color: lightcoral;
+    width: 103.7%;
+}
+
+.phone {
+    display: block;
+    width: 150px;
+    position: relative;
+    margin-left: 65%;
+    margin-top: -150px;
+    mix-blend-mode: multiply;
+}
+
+.content {
+    background-color: rgb(221, 241, 247);
+    height: 800px;
+    width: 103.7%;
+}
+
+.main-text {
+    line-height: 1.5;
+    font-size: 40px;
+    text-align: left;
+}
+
+.form {
+    display: block;
+    position: relative;
+    margin-left: 60%;
+    margin-top: -30%;
+}
+
+legend {
+  font-family: "Segoe UI";
+  margin-left: -14%;
+
+}
+
+.form label {
+  position:absolute;
+  left: -90px;
+  margin-right: 5px;
+}
+
+.addrs-text {
+    line-height: 2.0;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: white;
+    height: 150px;
+    width: 103.7%;
+    
+}
